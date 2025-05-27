@@ -11,7 +11,7 @@
 			"location": {
 				"type": "AzureBlobStorageLocation",
 				"fileName": "output.txt",
-				"folderPath": "output",
+				"folderPath": "output1",
 				"container": "homework-mod4"
 			},
 			"columnDelimiter": "\t",
