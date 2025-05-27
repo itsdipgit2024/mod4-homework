@@ -2,15 +2,15 @@
 	"name": "Binary1",
 	"properties": {
 		"linkedServiceName": {
-			"referenceName": "HttpServer1",
+			"referenceName": "AzureBlobStorage1",
 			"type": "LinkedServiceReference"
 		},
 		"annotations": [],
 		"type": "Binary",
 		"typeProperties": {
 			"location": {
-				"type": "HttpServerLocation",
-				"relativeUrl": "https://static.nhtsa.gov/odi/ffdd/cmpl/FLAT_CMPL.zip"
+				"type": "AzureBlobStorageLocation",
+				"fileName": "https://static.nhtsa.gov/odi/ffdd/cmpl/FLAT_CMPL.zip"
 			}
 		}
 	}
