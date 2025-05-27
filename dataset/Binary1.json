@@ -10,7 +10,7 @@
 		"typeProperties": {
 			"location": {
 				"type": "AzureBlobStorageLocation",
-				"fileName": "https://static.nhtsa.gov/odi/ffdd/cmpl/FLAT_CMPL.zip"
+				"fileName": "downloaded_complaint.zip"
 			}
 		}
 	}
