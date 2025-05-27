@@ -13,7 +13,7 @@
 				"fileName": "output",
 				"container": "homework-mod4"
 			},
-			"columnDelimiter": ",",
+			"columnDelimiter": "\t",
 			"escapeChar": "\\",
 			"firstRowAsHeader": true,
 			"quoteChar": "\""
