@@ -14,7 +14,8 @@
 				"folderPath": "raw-data",
 				"container": "homework-mod4"
 			},
-			"columnDelimiter": ",",
+			"columnDelimiter": "\t",
+			"rowDelimiter": "\n",
 			"compressionCodec": "ZipDeflate",
 			"escapeChar": "\\",
 			"firstRowAsHeader": false,
