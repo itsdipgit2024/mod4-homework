@@ -3,7 +3,7 @@
 	"properties": {
 		"activities": [
 			{
-				"name": "Read",
+				"name": "ReadHTTPSWriteBLOB",
 				"type": "Copy",
 				"dependsOn": [],
 				"policy": {
