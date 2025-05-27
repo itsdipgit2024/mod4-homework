@@ -18,8 +18,8 @@
 					"source": {
 						"type": "BinarySource",
 						"storeSettings": {
-							"type": "AzureBlobStorageReadSettings",
-							"recursive": true
+							"type": "HttpReadSettings",
+							"requestMethod": "GET"
 						},
 						"formatSettings": {
 							"type": "BinaryReadSettings",
@@ -72,8 +72,8 @@
 					"source": {
 						"type": "BinarySource",
 						"storeSettings": {
-							"type": "AzureBlobStorageReadSettings",
-							"recursive": true
+							"type": "HttpReadSettings",
+							"requestMethod": "GET"
 						},
 						"formatSettings": {
 							"type": "BinaryReadSettings",
