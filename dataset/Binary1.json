@@ -2,17 +2,15 @@
 	"name": "Binary1",
 	"properties": {
 		"linkedServiceName": {
-			"referenceName": "AzureBlobStorage1",
+			"referenceName": "HttpServer1",
 			"type": "LinkedServiceReference"
 		},
 		"annotations": [],
 		"type": "Binary",
 		"typeProperties": {
 			"location": {
-				"type": "AzureBlobStorageLocation",
-				"fileName": "downloaded_complaint.zip",
-				"folderPath": "source",
-				"container": "homework-mod4"
+				"type": "HttpServerLocation",
+				"relativeUrl": "downloaded_complaint.zip"
 			},
 			"compression": {
 				"type": "ZipDeflate",
