@@ -12,9 +12,6 @@
 				"type": "AzureBlobStorageLocation",
 				"fileName": "raw-data/FLAT_CMPL.zip",
 				"container": "homework-mod4"
-			},
-			"compression": {
-				"type": "ZipDeflate"
 			}
 		}
 	}
