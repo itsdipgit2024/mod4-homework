@@ -26,7 +26,10 @@
 						}
 					},
 					"sink": {
-						"type": "BinarySink"
+						"type": "BinarySink",
+						"storeSettings": {
+							"type": "AzureBlobStorageWriteSettings"
+						}
 					},
 					"enableStaging": false
 				},
