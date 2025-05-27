@@ -11,6 +11,10 @@
 			"location": {
 				"type": "AzureBlobStorageLocation",
 				"fileName": "downloaded_complaint.zip"
+			},
+			"compression": {
+				"type": "ZipDeflate",
+				"level": "Optimal"
 			}
 		}
 	}
