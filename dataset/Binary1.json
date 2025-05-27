@@ -12,6 +12,10 @@
 				"type": "AzureBlobStorageLocation",
 				"folderPath": "output",
 				"container": "homework-mod4"
+			},
+			"compression": {
+				"type": "deflate",
+				"level": "Optimal"
 			}
 		}
 	}
