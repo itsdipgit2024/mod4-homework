@@ -10,7 +10,9 @@
 		"typeProperties": {
 			"location": {
 				"type": "AzureBlobStorageLocation",
-				"fileName": "downloaded_complaint.zip"
+				"fileName": "downloaded_complaint.zip",
+				"folderPath": "source",
+				"container": "homework-mod4"
 			},
 			"compression": {
 				"type": "ZipDeflate",
