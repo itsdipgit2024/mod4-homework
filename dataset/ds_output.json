@@ -10,7 +10,8 @@
 		"typeProperties": {
 			"location": {
 				"type": "AzureBlobStorageLocation",
-				"fileName": "unzipped-data/FLAT_CMPL.zip",
+				"fileName": "FLAT_CMPL.zip",
+				"folderPath": "raw-data",
 				"container": "homework-mod4"
 			}
 		}
