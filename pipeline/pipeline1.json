@@ -44,7 +44,7 @@
 				],
 				"outputs": [
 					{
-						"referenceName": "Binary1",
+						"referenceName": "complaint",
 						"type": "DatasetReference"
 					}
 				]
@@ -98,7 +98,7 @@
 				],
 				"outputs": [
 					{
-						"referenceName": "Binary1",
+						"referenceName": "complaint",
 						"type": "DatasetReference"
 					}
 				]
